@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "BoxingTimerV1",
+    "slug": "BoxingTimerV1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
