@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, FONTS } from './variables';
+import { COLORS, FONTS, NEONBORDERS } from './variables';
 
 const styles = StyleSheet.create({
     
@@ -23,6 +23,14 @@ const styles = StyleSheet.create({
         textShadowColor: COLORS.blueNeon,  
         textShadowRadius: 16,  
     },
+    // MAIN CONTAINER
+    mainContainer: {
+        width: '100%',
+        height: '100%',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        backgroundColor: 'white',
+    },
     // CONTENT HEADING
     commonHeading: { 
         width: '100%',
@@ -40,20 +48,25 @@ const styles = StyleSheet.create({
         width: '80%',
         //height: '100%',
     },
-    // HOME CONTAINER
-    homeContainer: {
-        width: '100%',
-        height: '100%',
-        justifyContent: 'flex-start',
-        alignItems: 'center',
-        backgroundColor: 'white',
-    },
-    // HOME BODY LOGO
-    bodyLogo: {
-        width: 120,
-        height: 120,
-        resizeMode: 'stretch',
-    },
+
+        // COACH VOICE OPTIONS 
+        optionRow: {
+            marginVertical: 6,
+            width: '80%',
+            height: 56,
+            ...NEONBORDERS.thinNeonBorder, 
+        },
+        optionText: {         
+            margin: 'auto',
+            fontSize: 28,
+            fontFamily: FONTS.time,
+            /**/ 
+            textShadowRadius: 12, 
+            elevation: 24,
+            /**/
+        },
+
+    
 });
 
 

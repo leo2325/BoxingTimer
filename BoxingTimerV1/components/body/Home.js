@@ -6,12 +6,12 @@ import styles from '../../styles/body.styles.js';
 const Home = () => {
 
     return (
-        <View style={styles.homeContainer}> 
+        <View style={styles.mainContainer}> 
             
             <Text style={styles.bodyTitles}>HOME</Text>
             
             <View>
-                <Logo width={168} height={168} paddingVertical={40}/> 
+                <Logo width={160} height={160} paddingVertical={40}/> 
             </View> 
             
             <View style= {styles.contentContainer}>
