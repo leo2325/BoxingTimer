@@ -12,6 +12,9 @@
     },
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }

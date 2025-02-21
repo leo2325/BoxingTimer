@@ -4,52 +4,55 @@ import { COLORS, FONTS } from './variables';
 const styles = StyleSheet.create({
     
     // BODY MAIN CONTAINER
-    bodyContainer: {
+    body: {
         width: '100%',
         height: '100%',
-        display: 'flex',
+        justifyContent: 'center',
         alignItems: 'center',
-
-        backgroundColor: 'black',
-
     },
-
-    // BODY TITLES PAGES
+    // TITRE HAUT DE PAGES
     bodyTitles: { 
         width: '100%',
-        height: 80,
-        //fontFamily: FONTS.fight,
-        fontSize: 40,
-        color: COLORS.blueNeonBlackBG,
+        height: 50,
         textAlign: 'center',
         textAlignVertical: 'center',
+        marginVertical: 8,
+        fontSize: 32,
+        color: COLORS.blueNeonBlackBG,
+        fontFamily: FONTS.fight,
         textShadowColor: COLORS.blueNeon,  
         textShadowRadius: 16,  
-    },
-    // BODY CONTENT CONTAINER
-    contentContainer: {
-        width: '80%',
-        height: '100%',
-        display: 'flex',
-    },
-    bodyLogo: {
-        width: 128,
-        height: 128,
-        resizeMode: 'stretch',
     },
     // CONTENT HEADING
     commonHeading: { 
         width: '100%',
+        height: 40,
         textAlign: 'center',
         textAlignVertical: 'center',
-        margin: 'auto',
-        marginVertical: 2,
         textShadowColor: COLORS.blueNeon,  
         textShadowRadius: 16, 
-        fontFamily: FONTS.normal,
+        fontFamily: FONTS.fight,
         color: COLORS.blueNeonBlackBG,
-        minHeight: 56,
-        fontSize: 28,
+        fontSize: 16,
+    },
+    // BODY CONTENT CONTAINER
+    contentContainer: {
+        width: '80%',
+        //height: '100%',
+    },
+    // HOME CONTAINER
+    homeContainer: {
+        width: '100%',
+        height: '100%',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        backgroundColor: 'white',
+    },
+    // HOME BODY LOGO
+    bodyLogo: {
+        width: 120,
+        height: 120,
+        resizeMode: 'stretch',
     },
 });
 

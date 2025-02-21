@@ -2,26 +2,34 @@ import { StyleSheet } from 'react-native';
 import { COLORS } from './variables';
 
 const styles = StyleSheet.create({
-    
-    // INDEX.TSX
-    backgroundImage: {
-        flex: 1,
-        resizeMode: 'cover',
-    },
+
     container: {
-        flex: 1,
-        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        height: '100%',
+        width: '100%',
     },
+
     headerContainer: {
         height: '15%',
+        width: '100%',
+        backgroundColor: 'black',
     },
-    bodyContainer: {
-        height: '65%',
-        zIndex: 1100,
+
+    bodyContainer: {  
+        height: '75%',
+        width: '100%',
+        justifyContent: 'center',
+        alignItems: 'center',
     },
+
     footerContainer: {
-        height: '20%',
-    }, 
+        height: '10%',
+        width: '100%',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        backgroundColor: 'black',
+    },
+
 });
 
 export default styles;

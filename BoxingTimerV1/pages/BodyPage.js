@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
 import Home from '../components/body/Home';
-import styles from '../styles/header.styles';
+import styles from '../styles/body.styles';
 
 const Body = () => {
   return (
-    <View style={styles.bodyContainer}>
+    <View style={styles.body}>
         <Home />
     </View>
   );
