@@ -10,6 +10,9 @@ export default function Page() {
     // Charger la police
     const [fontsLoaded] = useFonts({
         FatalFighter: require('../assets/fonts/FatalFighter.ttf'),
+        DsDigi: require('../assets/fonts/DsDigi.ttf'),
+        HarvestItalic: require('../assets/fonts/HarvestItalic.ttf'),
+        HarvestRegular: require('../assets/fonts/HarvestRegular.ttf'),
     });
 
     if (!fontsLoaded) {

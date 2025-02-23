@@ -20,11 +20,11 @@ const styles = StyleSheet.create({
     },
     navIcon: {
         fontSize: 24,
-        color: COLORS.greenNeon, 
+        color: COLORS.blueNeon, 
         textAlign: 'center',
     },
     menuItemText: {
-        color: COLORS.greenNeon, 
+        color: COLORS.blueNeon, 
         fontSize: 12,
         textAlign: 'center',
     },

@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     },
     soundToggleIcon: {
         fontSize: 36, 
-        color: COLORS.greenNeon,
+        color: COLORS.blueNeon,
         textAlign: 'center', 
     },
 });
